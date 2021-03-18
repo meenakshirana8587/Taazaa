@@ -40,7 +40,7 @@ function searchUser(event){
     function closeExistingLists(elmnt){
         var foo = document.getElementById("userSuggestion");
         while(foo.firstChild){
-            foo.removeChild(foo.firstChild)
+            foo.removeChild(foo.firstChild);
         }
     }
 }
