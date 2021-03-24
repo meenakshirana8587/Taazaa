@@ -1,0 +1,13 @@
+C:\Users\lenovo\source\repos\Eventsdemo\Eventsdemo\obj\Debug\netcoreapp3.1\Eventsdemo.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\Eventsdemo\Eventsdemo\obj\Debug\netcoreapp3.1\Eventsdemo.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\Eventsdemo\Eventsdemo\obj\Debug\netcoreapp3.1\Eventsdemo.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\Eventsdemo\Eventsdemo\obj\Debug\netcoreapp3.1\Eventsdemo.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\Eventsdemo\Eventsdemo\bin\Debug\netcoreapp3.1\Eventsdemo.exe
+C:\Users\lenovo\source\repos\Eventsdemo\Eventsdemo\bin\Debug\netcoreapp3.1\Eventsdemo.deps.json
+C:\Users\lenovo\source\repos\Eventsdemo\Eventsdemo\bin\Debug\netcoreapp3.1\Eventsdemo.runtimeconfig.json
+C:\Users\lenovo\source\repos\Eventsdemo\Eventsdemo\bin\Debug\netcoreapp3.1\Eventsdemo.runtimeconfig.dev.json
+C:\Users\lenovo\source\repos\Eventsdemo\Eventsdemo\bin\Debug\netcoreapp3.1\Eventsdemo.dll
+C:\Users\lenovo\source\repos\Eventsdemo\Eventsdemo\bin\Debug\netcoreapp3.1\Eventsdemo.pdb
+C:\Users\lenovo\source\repos\Eventsdemo\Eventsdemo\obj\Debug\netcoreapp3.1\Eventsdemo.dll
+C:\Users\lenovo\source\repos\Eventsdemo\Eventsdemo\obj\Debug\netcoreapp3.1\Eventsdemo.pdb
+C:\Users\lenovo\source\repos\Eventsdemo\Eventsdemo\obj\Debug\netcoreapp3.1\Eventsdemo.genruntimeconfig.cache

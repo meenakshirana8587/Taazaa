@@ -1,0 +1,13 @@
+C:\Users\lenovo\source\repos\RealTimedelegate\RealTimedelegate\bin\Debug\netcoreapp3.1\RealTimedelegate.exe
+C:\Users\lenovo\source\repos\RealTimedelegate\RealTimedelegate\bin\Debug\netcoreapp3.1\RealTimedelegate.deps.json
+C:\Users\lenovo\source\repos\RealTimedelegate\RealTimedelegate\bin\Debug\netcoreapp3.1\RealTimedelegate.runtimeconfig.json
+C:\Users\lenovo\source\repos\RealTimedelegate\RealTimedelegate\bin\Debug\netcoreapp3.1\RealTimedelegate.runtimeconfig.dev.json
+C:\Users\lenovo\source\repos\RealTimedelegate\RealTimedelegate\bin\Debug\netcoreapp3.1\RealTimedelegate.dll
+C:\Users\lenovo\source\repos\RealTimedelegate\RealTimedelegate\bin\Debug\netcoreapp3.1\RealTimedelegate.pdb
+C:\Users\lenovo\source\repos\RealTimedelegate\RealTimedelegate\obj\Debug\netcoreapp3.1\RealTimedelegate.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\RealTimedelegate\RealTimedelegate\obj\Debug\netcoreapp3.1\RealTimedelegate.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\RealTimedelegate\RealTimedelegate\obj\Debug\netcoreapp3.1\RealTimedelegate.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\RealTimedelegate\RealTimedelegate\obj\Debug\netcoreapp3.1\RealTimedelegate.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\RealTimedelegate\RealTimedelegate\obj\Debug\netcoreapp3.1\RealTimedelegate.dll
+C:\Users\lenovo\source\repos\RealTimedelegate\RealTimedelegate\obj\Debug\netcoreapp3.1\RealTimedelegate.pdb
+C:\Users\lenovo\source\repos\RealTimedelegate\RealTimedelegate\obj\Debug\netcoreapp3.1\RealTimedelegate.genruntimeconfig.cache
