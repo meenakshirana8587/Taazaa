@@ -1,0 +1,13 @@
+C:\Users\lenovo\source\repos\LinqAssignment\LinqAssignment\bin\Debug\netcoreapp3.1\LinqAssignment.exe
+C:\Users\lenovo\source\repos\LinqAssignment\LinqAssignment\bin\Debug\netcoreapp3.1\LinqAssignment.deps.json
+C:\Users\lenovo\source\repos\LinqAssignment\LinqAssignment\bin\Debug\netcoreapp3.1\LinqAssignment.runtimeconfig.json
+C:\Users\lenovo\source\repos\LinqAssignment\LinqAssignment\bin\Debug\netcoreapp3.1\LinqAssignment.runtimeconfig.dev.json
+C:\Users\lenovo\source\repos\LinqAssignment\LinqAssignment\bin\Debug\netcoreapp3.1\LinqAssignment.dll
+C:\Users\lenovo\source\repos\LinqAssignment\LinqAssignment\bin\Debug\netcoreapp3.1\LinqAssignment.pdb
+C:\Users\lenovo\source\repos\LinqAssignment\LinqAssignment\obj\Debug\netcoreapp3.1\LinqAssignment.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\LinqAssignment\LinqAssignment\obj\Debug\netcoreapp3.1\LinqAssignment.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\LinqAssignment\LinqAssignment\obj\Debug\netcoreapp3.1\LinqAssignment.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\LinqAssignment\LinqAssignment\obj\Debug\netcoreapp3.1\LinqAssignment.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\LinqAssignment\LinqAssignment\obj\Debug\netcoreapp3.1\LinqAssignment.dll
+C:\Users\lenovo\source\repos\LinqAssignment\LinqAssignment\obj\Debug\netcoreapp3.1\LinqAssignment.pdb
+C:\Users\lenovo\source\repos\LinqAssignment\LinqAssignment\obj\Debug\netcoreapp3.1\LinqAssignment.genruntimeconfig.cache
