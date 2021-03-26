@@ -1,0 +1,13 @@
+C:\Users\lenovo\source\repos\CallBack\CallBack\bin\Debug\netcoreapp3.1\CallBack.exe
+C:\Users\lenovo\source\repos\CallBack\CallBack\bin\Debug\netcoreapp3.1\CallBack.deps.json
+C:\Users\lenovo\source\repos\CallBack\CallBack\bin\Debug\netcoreapp3.1\CallBack.runtimeconfig.json
+C:\Users\lenovo\source\repos\CallBack\CallBack\bin\Debug\netcoreapp3.1\CallBack.runtimeconfig.dev.json
+C:\Users\lenovo\source\repos\CallBack\CallBack\bin\Debug\netcoreapp3.1\CallBack.dll
+C:\Users\lenovo\source\repos\CallBack\CallBack\bin\Debug\netcoreapp3.1\CallBack.pdb
+C:\Users\lenovo\source\repos\CallBack\CallBack\obj\Debug\netcoreapp3.1\CallBack.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\CallBack\CallBack\obj\Debug\netcoreapp3.1\CallBack.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\CallBack\CallBack\obj\Debug\netcoreapp3.1\CallBack.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\CallBack\CallBack\obj\Debug\netcoreapp3.1\CallBack.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\CallBack\CallBack\obj\Debug\netcoreapp3.1\CallBack.dll
+C:\Users\lenovo\source\repos\CallBack\CallBack\obj\Debug\netcoreapp3.1\CallBack.pdb
+C:\Users\lenovo\source\repos\CallBack\CallBack\obj\Debug\netcoreapp3.1\CallBack.genruntimeconfig.cache
