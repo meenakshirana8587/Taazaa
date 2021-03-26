@@ -1,0 +1,13 @@
+C:\Users\lenovo\source\repos\SimpleExpressionTree\SimpleExpressionTree\bin\Debug\netcoreapp3.1\SimpleExpressionTree.exe
+C:\Users\lenovo\source\repos\SimpleExpressionTree\SimpleExpressionTree\bin\Debug\netcoreapp3.1\SimpleExpressionTree.deps.json
+C:\Users\lenovo\source\repos\SimpleExpressionTree\SimpleExpressionTree\bin\Debug\netcoreapp3.1\SimpleExpressionTree.runtimeconfig.json
+C:\Users\lenovo\source\repos\SimpleExpressionTree\SimpleExpressionTree\bin\Debug\netcoreapp3.1\SimpleExpressionTree.runtimeconfig.dev.json
+C:\Users\lenovo\source\repos\SimpleExpressionTree\SimpleExpressionTree\bin\Debug\netcoreapp3.1\SimpleExpressionTree.dll
+C:\Users\lenovo\source\repos\SimpleExpressionTree\SimpleExpressionTree\bin\Debug\netcoreapp3.1\SimpleExpressionTree.pdb
+C:\Users\lenovo\source\repos\SimpleExpressionTree\SimpleExpressionTree\obj\Debug\netcoreapp3.1\SimpleExpressionTree.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\SimpleExpressionTree\SimpleExpressionTree\obj\Debug\netcoreapp3.1\SimpleExpressionTree.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\SimpleExpressionTree\SimpleExpressionTree\obj\Debug\netcoreapp3.1\SimpleExpressionTree.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\SimpleExpressionTree\SimpleExpressionTree\obj\Debug\netcoreapp3.1\SimpleExpressionTree.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\SimpleExpressionTree\SimpleExpressionTree\obj\Debug\netcoreapp3.1\SimpleExpressionTree.dll
+C:\Users\lenovo\source\repos\SimpleExpressionTree\SimpleExpressionTree\obj\Debug\netcoreapp3.1\SimpleExpressionTree.pdb
+C:\Users\lenovo\source\repos\SimpleExpressionTree\SimpleExpressionTree\obj\Debug\netcoreapp3.1\SimpleExpressionTree.genruntimeconfig.cache
