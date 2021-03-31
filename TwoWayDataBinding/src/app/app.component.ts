@@ -7,19 +7,21 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TwoWayDataBinding';
-  a=300;
-  b=300;
 
-  setwidth(): void{
-    this.a= 50;
-    this.b= 100;
+  showdatabindingdemo= true;
+  showdirdemo= false;
+
+  showdbdemo(): void
+  {
+    this.showdatabindingdemo= true;
+    this.showdirdemo= false;
   }
-  imgSrc: string = "../assets/front.jpg";
-  onmouseover(): void{
-    this.imgSrc= "../assets/back.jpg";
+  showdirectivedemo() :void
+  {
+    this.showdatabindingdemo= false;
+    this.showdirdemo= true;
+  }
+  
+
   }
 
-  onmouseout(): void{
-    this.imgSrc= "../assets/front.jpg";
-  }
-}
