@@ -15,8 +15,8 @@ export class TshirtdatabindingComponent implements OnInit {
   b=300;
 
   setwidth(): void{
-    this.a= 50;
-    this.b= 100;
+    this.a= 300;
+    this.b= 300;
   }
   imgSrc: string = "../assets/front.jpg";
   onmouseover(): void{

@@ -23,6 +23,7 @@ export class ProductComponent implements OnInit {
       Expirydate: "10-10-2020",
       IsInStock: false,
       Quantity: 0
+      
 
 
 
@@ -34,7 +35,7 @@ export class ProductComponent implements OnInit {
         Expirydate: "10-11-2020",
         IsInStock: true,
         Quantity: 300
-  
+        
   
   
         },
@@ -45,6 +46,7 @@ export class ProductComponent implements OnInit {
           Expirydate: "12-12-2020",
           IsInStock: true,
           Quantity: 50
+          
     
     
     
@@ -56,6 +58,7 @@ export class ProductComponent implements OnInit {
             Expirydate: "10-1-2021",
             IsInStock: true,
             Quantity: 300
+          
       
       
       
@@ -67,6 +70,7 @@ export class ProductComponent implements OnInit {
               Expirydate: "10-10-2021",
               IsInStock: false,
               Quantity: 0
+              
         
         
         
