@@ -29,6 +29,9 @@ export class AppComponent {
     this.showdirdemo= false;
     this.showmaster= true;
   }
+  data= undefined;
+
+  
   
 
   }

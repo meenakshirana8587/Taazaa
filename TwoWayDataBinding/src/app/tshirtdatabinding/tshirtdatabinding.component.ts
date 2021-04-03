@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MyErrorHandlerService } from '../my-error-handler.service';
 
 @Component({
   selector: 'app-tshirtdatabinding',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TshirtdatabindingComponent implements OnInit {
 
-  constructor() { }
+  constructor(private MyErrorHandlerService: MyErrorHandlerService) { }
 
   ngOnInit(): void {
   }
@@ -25,6 +26,14 @@ export class TshirtdatabindingComponent implements OnInit {
 
   onmouseout(): void{
     this.imgSrc= "../assets/front.jpg";
+  }
+  data: any;
+  
+  onclick(): any{
+    this.data.sort();
+  }
+  myEFn(): void{
+    this.data.sort();
   }
 }
 
