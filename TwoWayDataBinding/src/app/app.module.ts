@@ -11,6 +11,15 @@ import { PurchaseOrderComponent } from './purchase-order/purchase-order.componen
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { MyErrorHandlerService } from './my-error-handler.service';
+import { Child1Component } from './child1/child1.component';
+import { Child2Component } from './child2/child2.component';
+import { MydirectiveDirective } from './mydirective.directive';
+import { C3Component } from './c3/c3.component';
+import { RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { AppRoutingModule } from './app-routing.module';
+import { ErrorhandlerComponent } from './errorhandler/errorhandler.component';
+import { ParentComponent } from './parent/parent.component';
 
 @NgModule({
   declarations: [
@@ -19,13 +28,23 @@ import { MyErrorHandlerService } from './my-error-handler.service';
     HelloComponent,
     ProductComponent,
     PurchaseComponent,
-    PurchaseOrderComponent
+    PurchaseOrderComponent,
+    Child1Component,
+    Child2Component,
+    MydirectiveDirective,
+    C3Component,
+    HomeComponent,
+    ErrorhandlerComponent,
+    ParentComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
-    MatExpansionModule
+    MatExpansionModule, 
+    RouterModule,
+    AppRoutingModule
+  
   ],
   providers: [{provide:ErrorHandler, useClass:MyErrorHandlerService}],
   bootstrap: [AppComponent]

@@ -7,10 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TwoWayDataBinding';
+color:string;
+c= 'yellow';
+
 
   showdatabindingdemo= true;
   showdirdemo= false;
   showmaster= false;
+  showchild= false;
+  showattribute= false;
 
   showdbdemo(): void
   {
@@ -29,7 +34,20 @@ export class AppComponent {
     this.showdirdemo= false;
     this.showmaster= true;
   }
-  data= undefined;
+  showc1c2(): void{
+    this.showdatabindingdemo= false;
+    this.showdirdemo= false;
+    this.showmaster= false;
+    this.showchild= true;
+  }
+  showatt(): void{
+    this.showdatabindingdemo= false;
+    this.showdirdemo= false;
+    this.showmaster= false;
+    this.showchild= false;
+    this.showattribute= true;
+  }
+  
 
   
   

@@ -32,9 +32,7 @@ export class TshirtdatabindingComponent implements OnInit {
   onclick(): any{
     this.data.sort();
   }
-  myEFn(): void{
-    this.data.sort();
-  }
+  
 }
 
 
