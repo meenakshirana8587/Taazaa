@@ -15,5 +15,6 @@ export class ProductComponent implements OnInit {
     this.products = this.DataService.getProducts();
   }
 
-  
+  searchtext: string;
+  filterprice: number;
 }

@@ -22,6 +22,20 @@ export class SharedataService {
   {
     this.product.Title= title;
   }
+  setId(Id: number)
+  {
+    this.product.Id= Id;
+  }
+  setQuantity(Quantity: number)
+  {
+    this.product.Quantity= Quantity;
+  }
+  updateProduct(p:IProduct){
+    this.product= {
+      ...p
+    }
+    this.product$.next(this.product);
+  }
 
   
   

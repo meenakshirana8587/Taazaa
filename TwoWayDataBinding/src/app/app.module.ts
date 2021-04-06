@@ -24,6 +24,7 @@ import { LoginComponent } from './login/login.component';
 import { MycustompipePipe } from './mycustompipe.pipe';
 import { PricepipePipe } from './pricepipe.pipe';
 import { DataService } from './Data.service';
+
 import { SharedataService } from './sharedata.service';
 
 @NgModule({
@@ -41,12 +42,11 @@ import { SharedataService } from './sharedata.service';
     HomeComponent,
     ErrorhandlerComponent,
     ParentComponent,
-    LoginComponent,
+  
     MycustompipePipe,
-    PricepipePipe, 
-    DataService,
-     SharedataService,
-     MyErrorHandlerService
+    PricepipePipe,
+    LoginComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -58,7 +58,8 @@ import { SharedataService } from './sharedata.service';
     ReactiveFormsModule
   
   ],
-  providers: [{provide:ErrorHandler, useClass:MyErrorHandlerService}],
+  providers: [{provide:ErrorHandler, useClass:MyErrorHandlerService},
+  {provide : DataService}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
