@@ -25,6 +25,7 @@ import { MycustompipePipe } from './mycustompipe.pipe';
 import { PricepipePipe } from './pricepipe.pipe';
 import { DataService } from './Data.service';
 
+
 import { SharedataService } from './sharedata.service';
 
 @NgModule({
@@ -46,6 +47,7 @@ import { SharedataService } from './sharedata.service';
     MycustompipePipe,
     PricepipePipe,
     LoginComponent
+    
     
   ],
   imports: [
