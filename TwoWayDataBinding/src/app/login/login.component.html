@@ -1,0 +1,68 @@
+ 
+
+  <br>
+<br>
+<br>
+<div class="container"> 
+<div class = 'row'>
+    
+    <form (ngSubmit)='login()' [formGroup] = "loginForm" novalidate class ="form-group">
+        <input formControlName='email'
+            type='text'
+            class='form-control form-control-bg'
+            placeholder="Enter email"/>
+        <div class ="alert alert-danger" *ngIf="loginForm?.get('email')?.hasError('required') && loginForm?.get('email')?.touched">
+            Email is Required
+        </div>
+ 
+        <input formControlName='password'
+        type='password'
+        class='form-control'
+        placeholder="Enter password"/>
+    <div class ="alert alert-danger" *ngIf="!loginForm?.get('password')?.valid && loginForm?.get('password')?.touched">
+        Password is Required
+    </div>
+ 
+    <input formControlName='age'
+            type='number'
+            class='form-control'
+            placeholder="Enter Age"/>
+        <div class ="alert alert-danger" *ngIf="loginForm?.get('age')?.dirty && loginForm?.get('age')?.errors && loginForm?.get('age')?.touched">
+            Age between{{min}} to {{max}} is Required
+        </div>
+ 
+    <input formControlName='phonenumber'
+        type='number'
+        class='form-control'
+        placeholder="Enter phonenumber"/>
+    <div class ="alert alert-danger" *ngIf="loginForm?.get('phonenumber')?.hasError('required') && loginForm?.get('phonenumber')?.touched">
+        Phone number Required
+    </div>
+
+
+ 
+        <label class = 'control-label'>Send Notification</label>
+        <br>
+        <label class=" radio-inline">
+            <input type ="radio" value="email" formControlName ="notification">Email
+        </label>
+        <label class=" radio-inline">
+            <input type ="radio" value="phone" formControlName ="notification">Phone
+        </label>
+
+
+
+ 
+    <br>
+    <button [disabled] = 'loginForm.invalid' type="submit" class="btn btn-primary btn-block">Login</button>
+    <button type="reset" (click) = "cancel()" class="btn btn-warning btn-block">Reset</button>
+    </form>
+</div>
+
+<div class="footer">
+    <hr/>
+    <p class="text-muted">In this demo , Reactive form is created. Reactive forms are the forms in which most of the form data is in the component class.
+        Their is another type of form called Template form whic is less popular than the reactive form.
+    </p>
+</div>
+</div>

@@ -1,0 +1,19 @@
+<h1 class="text-center text-info">Custom Attribute Directive</h1>
+
+<hr>
+<br>
+<input type="text" class="form-control form-control-lg" [(ngModel)]= 'c'>
+<br>
+<br>
+<button class="btn btn-success">Change The color of the text</button>
+
+<br>
+<br>
+<div appMydirective [color]= 'c'>move your mouse over me</div>
+
+<div class="footer" >
+    <hr>
+    <p class=" text-muted">This demonstrates the concept of Attribute directive. Attribute directives are used to access and change the attributes of a DOM element.  </p>
+    
+    <p class=" text-muted">In this demo, I created a custom attribute directive which changes the attributes of a div element</p>
+  </div>
