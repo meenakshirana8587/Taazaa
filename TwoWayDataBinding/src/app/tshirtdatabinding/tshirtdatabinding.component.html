@@ -1,0 +1,61 @@
+<div class="container">
+<h1 class=" text-success text-center">T-Shirt</h1>
+
+<hr>
+<br>
+<br>
+
+<div class="row">
+
+ <div class="col-md-4">
+   <h3 class="text-info">Height:</h3>
+    <input type="text" class="form-control form-control-lg" [(ngModel)] ='a'>
+</div>
+<div class="col-md-4"></div>
+<div class="col-md-4">
+  <h3 class="text-info">Width:</h3>
+  <input type="text" class="form-control form-control-lg" [(ngModel)] ='b'>
+</div>
+</div>
+<!-- <form>
+  <div class="form-group">
+    <label>Height</label>
+    <input type="text" class="form-control form-control-lg" >
+    
+  </div>
+</form>
+<div class="col-md-4"></div>
+<form>
+  <div class="col-md-4"></div>
+  <div class="form-group">
+    <label>Width</label>
+    <input type="text" class="form-control form-control-lg" >
+  </div>
+  
+</form>
+</div>
+<br>
+<br> -->
+
+
+
+<div class="row">
+  
+  <div class="col-md-4"></div>
+<div class="col-md-4">
+  <img [src]= "imgSrc"  [style.height.px]='a' [style.width.px]='b' (mouseenter)= 'onmouseover()' (mouseleave)= 'onmouseout()'>
+</div>
+<div class="col-md-4"></div>
+</div>
+
+<div class="footer" >
+  <hr>
+  <p class=" text-info">This demonstrates the concept of data binding.
+    Data binding enables to show the data on the template.</p>
+  <p class=" text-info">Data binding can be done in three ways- Interpolation, 
+  Property Binding and Event Binding.</p>
+</div>
+
+
+</div>
+
