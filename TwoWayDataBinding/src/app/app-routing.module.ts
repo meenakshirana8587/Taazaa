@@ -6,6 +6,7 @@ import {RouterModule, Routes} from '@angular/router';
 import { C3Component } from './c3/c3.component';
 import { ErrorhandlerComponent } from './errorhandler/errorhandler.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 import { ParentComponent } from './parent/parent.component';
 import { ProductComponent } from './product/product.component';
 import { PurchaseComponent } from './purchase/purchase.component';
@@ -20,7 +21,8 @@ const routes: Routes=[
     {path: 'databinding', component: TshirtdatabindingComponent },
     {path: 'attributedirective', component: C3Component },
     {path: 'errorhandler', component: ErrorhandlerComponent},
-    {path: 'sharedata', component:ParentComponent}
+    {path: 'sharedata', component:ParentComponent},
+    {path: 'loginform', component:LoginComponent}
 ]
     @NgModule({
         imports: [RouterModule.forRoot(routes)],

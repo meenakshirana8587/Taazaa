@@ -1,5 +1,5 @@
 import { ErrorHandler, NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -20,6 +20,11 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ErrorhandlerComponent } from './errorhandler/errorhandler.component';
 import { ParentComponent } from './parent/parent.component';
+import { LoginComponent } from './login/login.component';
+import { MycustompipePipe } from './mycustompipe.pipe';
+import { PricepipePipe } from './pricepipe.pipe';
+import { DataService } from './Data.service';
+import { SharedataService } from './sharedata.service';
 
 @NgModule({
   declarations: [
@@ -35,7 +40,13 @@ import { ParentComponent } from './parent/parent.component';
     C3Component,
     HomeComponent,
     ErrorhandlerComponent,
-    ParentComponent
+    ParentComponent,
+    LoginComponent,
+    MycustompipePipe,
+    PricepipePipe, 
+    DataService,
+     SharedataService,
+     MyErrorHandlerService
   ],
   imports: [
     BrowserModule,
@@ -43,7 +54,8 @@ import { ParentComponent } from './parent/parent.component';
     BrowserAnimationsModule,
     MatExpansionModule, 
     RouterModule,
-    AppRoutingModule
+    AppRoutingModule, 
+    ReactiveFormsModule
   
   ],
   providers: [{provide:ErrorHandler, useClass:MyErrorHandlerService}],

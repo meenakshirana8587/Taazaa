@@ -1,7 +1,68 @@
 
-<h1 class="text-center text-success">Share data Among Unrelated Components</h1>
+<!-- <h1 class="text-center text-success">Share data Among Unrelated Components</h1>
 <input type="text" class="form-control form-control-lg" [(ngModel)]= 'price' [(ngModel)]= 'title' placeholder="enter the price to update">
 <br>
 <br>
 <button (click)= "getPrice()"class="btn btn-warning">Change Price</button>
+ -->
+ <div class="row">
+    <div class="col-md-2 "></div>
+    <div class="col-md-8 ">
+    <form (ngSubmit) = 'getUpdatedvalues()' [formGroup] = 'productform' novalidate class="form-group">
+        <h2 class=" text-danger">Id: </h2>
+        <input formControlName='Id'
+        type ="number"
+        class="form-control"
+        placeholder="Enter Id">
+        <div class="alert alert-danger" *ngIf="!productform?.get('Id')?.valid && productform?.get('Id')?.touched">
+            Id is Required
+            </div>
+        <!-- <div class="alert alert-danger" *ngIf="loginform?.get('email')?.hasError('required') && loginform?.get('email')?.touched">
+            Email is required
+        </div> -->
+        <h2 class=" text-danger">Title: </h2>
+        <input formControlName ='Title'
+        type ="text"
+        class ="form-control"
+        placeholder="Enter Title">
+        <div class="alert alert-danger" *ngIf="!productform?.get('Title')?.valid && productform?.get('Title')?.touched">
+        Title is Required
+        </div>
+        <!-- <div class="alert alert-danger" *ngIf="!loginform?.get('password')?.valid && loginform?.get('password')?.touched">
+            Password is required and shoud less than 5 characters
+        </div> -->
+        <h2 class=" text-danger">Price: </h2>
+        <input formControlName ='Price'
+        type ="number"
+        class ="form-control"
+        placeholder="Enter Price">
+        <div class="alert alert-danger" *ngIf="!productform?.get('Price')?.valid && productform?.get('Price')?.touched">
+            price is required and must be between{{min}} to {{max}} is Required
+        </div>
+        <h2 class=" text-danger">Quantity: </h2>
+        <input formControlName='Quantity'
+        type ="number"
+        class="form-control"
+        placeholder="Enter Quantity">
+        <div class ="alert alert-danger" *ngIf="productform?.get('Quantity')?.dirty && productform?.get('Quantity')?.errors && productform?.get('Quantity')?.touched">
+            Quantity is required and must be more than Zero
+        </div>
+        <!-- <label class="contro-label">Send Notification</label>
+           
+        <label class="radio-inline">
+            <input type="radio" value="phone" formControlName="notification">phone
+        </label>
+        <label class="radio-inline">
+           <input type="radio" value="email" formControlName="notification">email
+       </label> -->
 
+
+
+    <br>
+
+    <button type="submit" [disabled] = "productform.invalid" class="btn btn-danger">Update</button>
+    <!-- <button type="button"(click)='cancel()' class="btn btn-info">Reset</button> -->
+    </form>
+</div>
+<div class="col-md-2 "></div>
+</div>
