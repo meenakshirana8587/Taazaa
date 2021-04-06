@@ -1,0 +1,49 @@
+<div class="row">
+    <h2 class="text-danger text-center">Master - Details using component communication</h2>
+
+    
+</div>
+<hr/>
+<!-- <div class="row">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Name
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor= "let p of purchase">
+                <td>{{p.Id}}</td>
+                <td><button class="btn btn-link">{{p.Name}}</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div> -->
+
+<div class="col-md-12">
+    <mat-accordion class="example-headers-align" >
+        <mat-expansion-panel *ngFor="let p of purchase">
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                <h2>{{p.Id}}</h2>
+            </mat-panel-title>
+                <mat-panel-description>
+                <h2 class="text-info">{{p.Name}}</h2>
+            </mat-panel-description>
+            
+        </mat-expansion-panel-header>
+        <app-purchase-order [PurchaseItem]= 'p'></app-purchase-order>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>
+<div class="footer" >
+    <hr>
+    <p class=" text-info">This demonstrates the concept of component communication among related Components.</p>
+    
+    <p class=" text-info">There are four ways of component communication: Input decorator, output decorator, temp ref variable and view child decorator</p>
+  </div>
