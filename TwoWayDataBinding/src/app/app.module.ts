@@ -28,6 +28,11 @@ import {MatTableModule} from '@angular/material/table';
 
 
 import { SharedataService } from './sharedata.service';
+import { ScompComponent } from './scomp/scomp.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
+import { ReplaycompComponent } from './replaycomp/replaycomp.component';
+import { BehaviourcompComponent } from './behaviourcomp/behaviourcomp.component';
+import { AsynccompComponent } from './asynccomp/asynccomp.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +52,12 @@ import { SharedataService } from './sharedata.service';
   
     MycustompipePipe,
     PricepipePipe,
-    LoginComponent
+    LoginComponent,
+    ScompComponent,
+    RxjsComponent,
+    ReplaycompComponent,
+    BehaviourcompComponent,
+    AsynccompComponent
     
     
   ],
@@ -64,7 +74,7 @@ import { SharedataService } from './sharedata.service';
   
   ],
   providers: [{provide:ErrorHandler, useClass:MyErrorHandlerService},
-  {provide : DataService}],
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

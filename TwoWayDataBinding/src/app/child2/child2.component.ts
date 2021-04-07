@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IProduct } from '../product/iproduct';
+import { IProduct } from '../product/IProduct';
 import { SharedataService } from '../sharedata.service';
 
 @Component({

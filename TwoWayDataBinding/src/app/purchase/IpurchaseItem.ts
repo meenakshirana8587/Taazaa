@@ -1,4 +1,4 @@
-import { IProduct } from "../product/iproduct";
+import { IProduct } from "../product/IProduct";
 
 
 export interface IPurchaseItems

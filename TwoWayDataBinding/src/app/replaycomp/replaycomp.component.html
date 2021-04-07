@@ -1,0 +1,21 @@
+
+
+
+  <h2 class="text-center text-info">{{title}}</h2>
+
+<div class="wrapper">
+  <div>
+    <button (click)='susbcribe2()'>Click me to see the replaysubject demo1</button>
+    
+    <hr />
+    <div *ngFor="let p of observer2">
+      <p class="data2"> {{p}}</p>
+    </div>
+    <div *ngIf="showObserver2">
+      complete
+    </div>
+
+  </div>
+  </div>
+  
+  

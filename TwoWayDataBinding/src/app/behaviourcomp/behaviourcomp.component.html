@@ -1,0 +1,17 @@
+<h2 class="text-center text-info">{{title}}</h2>
+
+<div class="wrapper">
+  <div>
+    <button (click)='susbcribe4()'>Click me to see the behavioursubject demo</button>
+    
+    <hr />
+    <div *ngFor="let p of observer4">
+      <p class="data2"> {{p}}</p>
+    </div>
+    <div *ngIf="showObserver4">
+      complete
+    </div>
+
+  </div>
+  </div>
+

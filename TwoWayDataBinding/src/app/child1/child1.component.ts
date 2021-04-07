@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AbstractControl, FormControl, FormGroup, ValidatorFn, Validators } from '@angular/forms';
-import { IProduct } from '../product/iproduct';
+import { IProduct } from '../product/IProduct';
 import { SharedataService } from '../sharedata.service';
 function priceRangeValidator(min : number, max: number) : ValidatorFn{
   return(control:AbstractControl):{[key : string] : boolean} | null => 

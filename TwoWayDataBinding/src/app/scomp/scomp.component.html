@@ -1,0 +1,14 @@
+<h2 class="text-center text-info">{{title}}</h2>
+
+<div class="wrapper">
+  <div>
+    <button (click)='subscribe1()'>Click me to see the demo </button>
+    <hr />
+    <div *ngFor="let p of observer1">
+      <p class="data1"> {{p}}</p>
+    </div>
+    <div *ngIf="showObserver1">
+      complete
+    </div>
+  </div>
+  <div>
