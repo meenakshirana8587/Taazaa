@@ -1,17 +1,41 @@
-<h2 class="text-center text-info">{{title}}</h2>
+<h2 class="text-center text-warning">{{title}}</h2>
 
 <div class="wrapper">
-  <div>
-    <button (click)='susbcribe4()'>Click me to see the behavioursubject demo</button>
+
+  <div class="row">
+    <div class="col-md-4">
+    <button class="btn btn-warning" (click)='susbcribe1()'>Subscriber1</button>
     
     <hr />
-    <div *ngFor="let p of observer4">
+    <div *ngFor="let p of observer1">
       <p class="data2"> {{p}}</p>
     </div>
-    <div *ngIf="showObserver4">
+    <div *ngIf="showObserver1">
       complete
     </div>
-
+  </div>
+  <div class="col-md-4">
+    <button class="btn btn-warning" (click)='susbcribe2()'>Subscriber2</button>
+    
+    <hr />
+    <div *ngFor="let p of observer2">
+      <p class="data2"> {{p}}</p>
+    </div>
+    <div *ngIf="showObserver2">
+      complete
+    </div>
+  </div>
+  <div class="col-md-4">
+    <button class="btn btn-warning" (click)='susbcribe3()'>Subscriber3</button>
+    
+    <hr />
+    <div *ngFor="let p of observer3">
+      <p class="data2"> {{p}}</p>
+    </div>
+    <div *ngIf="showObserver3">
+      complete
+    </div>
+  </div>
   </div>
   </div>
 

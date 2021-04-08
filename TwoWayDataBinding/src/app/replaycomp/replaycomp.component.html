@@ -4,8 +4,20 @@
   <h2 class="text-center text-info">{{title}}</h2>
 
 <div class="wrapper">
-  <div>
-    <button (click)='susbcribe2()'>Click me to see the replaysubject demo1</button>
+  <div class="row">
+  <div class="col-md-4">
+    <button class="btn btn-info" (click)='susbcribe1()'>subscriber1</button>
+    
+    <hr />
+    <div *ngFor="let p of observer1">
+      <p class="data2"> {{p}}</p>
+    </div>
+    <div *ngIf="showObserver1">
+      complete
+    </div>
+  </div>
+  <div class="col-md-4">
+    <button class="btn btn-info" (click)='susbcribe2()'>subscriber2</button>
     
     <hr />
     <div *ngFor="let p of observer2">
@@ -14,8 +26,21 @@
     <div *ngIf="showObserver2">
       complete
     </div>
+  </div>
 
+  <div class="col-md-4">
+    <button class="btn btn-info" (click)='susbcribe3()'>subscriber3</button>
+    
+    <hr />
+    <div *ngFor="let p of observer3">
+      <p class="data2"> {{p}}</p>
+    </div>
+    <div *ngIf="showObserver3">
+      complete
+    </div>
   </div>
   </div>
+  </div>
+
   
   

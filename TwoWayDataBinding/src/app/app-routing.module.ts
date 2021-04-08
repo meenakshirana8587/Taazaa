@@ -21,6 +21,7 @@ import { TshirtdatabindingComponent } from './tshirtdatabinding/tshirtdatabindin
 
 
 const routes: Routes=[
+    { path: '', redirectTo: 'home', pathMatch: 'full' },
     {path:'home', component: HomeComponent},
     {path: 'products', component: ProductComponent },
     {path: 'masterdetails', component: PurchaseComponent},
@@ -30,19 +31,29 @@ const routes: Routes=[
     {path: 'sharedata', component:ParentComponent},
     {path: 'loginform', component:LoginComponent},
     {path: 'rxjs', component:RxjsComponent},
-    {path: 'subject', component:ScompComponent},
-    {path: 'replay', component:ReplaycompComponent},
-    {path: 'async', component:AsynccompComponent},
-    {path: 'behaviour', component:BehaviourcompComponent},
     
-    { path: '', redirectTo: 'home', pathMatch: 'full' },
+    
+        {path: 'subject', component:ScompComponent},
+        {path: 'replay', component:ReplaycompComponent},
+        {path: 'async', component:AsynccompComponent},
+        {path: 'behaviour', component:BehaviourcompComponent}
+      
+
+    
+    
+    
+    
+    
+    
 
 ]
     @NgModule({
         imports: [RouterModule.forRoot(routes)],
+        
         exports: [RouterModule]
      })
      export class AppRoutingModule{}
+
 
 
 
