@@ -30,23 +30,15 @@ const routes: Routes=[
     {path: 'errorhandler', component: ErrorhandlerComponent},
     {path: 'sharedata', component:ParentComponent},
     {path: 'loginform', component:LoginComponent},
-    {path: 'rxjs', component:RxjsComponent},
-    
-    
-        {path: 'subject', component:ScompComponent},
+    {path: 'rxjs', component:RxjsComponent,children:
+[
+       {path: 'subject', component:ScompComponent},
         {path: 'replay', component:ReplaycompComponent},
         {path: 'async', component:AsynccompComponent},
         {path: 'behaviour', component:BehaviourcompComponent}
-      
-
-    
-    
-    
-    
-    
-    
-
+    ]},
 ]
+
     @NgModule({
         imports: [RouterModule.forRoot(routes)],
         

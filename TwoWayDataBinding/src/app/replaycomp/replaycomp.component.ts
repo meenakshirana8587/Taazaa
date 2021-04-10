@@ -52,7 +52,7 @@ export class ReplaycompComponent implements OnInit , OnDestroy{
     
   }
   ngOnDestroy() {
-    this.observer2$.unsubscribe();
+  
   }
 
 

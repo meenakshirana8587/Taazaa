@@ -57,9 +57,7 @@ export class ScompComponent implements OnInit, OnDestroy {
 
   }
   ngOnDestroy() {
-    this.observer1$.unsubscribe();
-    this.observer2$.unsubscribe();
-    this.observer3$.unsubscribe();
+    
   }
 
 }

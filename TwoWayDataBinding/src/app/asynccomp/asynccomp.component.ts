@@ -53,7 +53,7 @@ export class AsynccompComponent implements OnInit, OnDestroy {
 
   }
   ngOnDestroy() {
-    this.observer3$.unsubscribe();
+  
   }
 
 }
